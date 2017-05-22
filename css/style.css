@@ -30,10 +30,7 @@ header h1 {
 	color: #fff;
 	text-transform: uppercase;
 }
-legend {
-	font-size: 1.3em;
-	font-weight: bold;
-}
+
 /***** INTRO STYLES *****/
 .intro {
 	text-align: center;
@@ -43,12 +40,12 @@ legend {
 /**** FORM STYLES *****/
 fieldset {
 	border: none;
+	border-bottom: 2px solid black;
+	margin-top: 25px;
 }
-input,
-select,
-textarea {
-	display: block;
-	width: 100%;
+legend {
+	font-size: 1.3em;
+	font-weight: bold;
 }
 #zip {
 	width: 33%;
@@ -57,7 +54,7 @@ input[placeholder]{
 	text-align: right;
 	font-style: italic;
 }
-input,
+input:not([type="radio"]),
 select,
 textarea{
 	background-color: #EFEFEF;
@@ -65,14 +62,18 @@ textarea{
 	padding: 15px;
 	border: none;
 	font-size: 1.1em;
+	display: block;
+	width: 100%;
 }
 input:focus,
 select:focus,
 textarea:focus{
-	border: 2px solid lightblue;
+	border: 2px solid #B2C9FF;
 	box-shadow: none;
 }
-
+label {
+	display: block;
+}
 form {
 	border-top: 2px solid black;
 	margin: 4px 0 0 0;
