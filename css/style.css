@@ -1,0 +1,91 @@
+/***** FONT *****/
+@import url('https://fonts.googleapis.com/css?family=Khula:400,700');
+
+/***** GENERAL STYLES *****/
+* {
+	box-sizing: border-box;	
+}
+
+body {
+	font-family: 'Khula', sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #fefefe;
+}
+.container {
+	max-width: 100%;
+	padding:  0 10px;
+}
+
+
+/***** HEADER *****/
+header {
+	background: #141E46;
+	padding: 20px 0;
+	text-align: center
+
+}
+header h1 {
+	margin: 0;
+	color: #fff;
+	text-transform: uppercase;
+}
+legend {
+	font-size: 1.3em;
+	font-weight: bold;
+}
+/***** INTRO STYLES *****/
+.intro {
+	text-align: center;
+	border-bottom: 4px solid black;
+}
+
+/**** FORM STYLES *****/
+fieldset {
+	border: none;
+}
+input,
+select,
+textarea {
+	display: block;
+	width: 100%;
+}
+#zip {
+	width: 33%;
+}
+input[placeholder]{
+	text-align: right;
+	font-style: italic;
+}
+input,
+select,
+textarea{
+	background-color: #EFEFEF;
+	border-radius: 5px;
+	padding: 15px;
+	border: none;
+	font-size: 1.1em;
+}
+input:focus,
+select:focus,
+textarea:focus{
+	border: 2px solid lightblue;
+	box-shadow: none;
+}
+
+form {
+	border-top: 2px solid black;
+	margin: 4px 0 0 0;
+	padding: 20px 0 0 0;
+}
+
+/***** DRY classes *****/
+.btn {
+
+}
+.h-default-color {
+
+}
+.p-default-color {
+
+}
