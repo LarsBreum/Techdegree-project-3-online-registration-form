@@ -15,12 +15,17 @@ body {
 .container {
 	max-width: 100%;
 	padding:  0 10px;
+	margin: 0;
 }
 
 
 /***** HEADER *****/
 header {
-	background: #141E46;
+	background: 
+	linear-gradient(#141E46, transparent 120%), 
+	url(../images/markus-spiske.jpg) center;
+	background-size: cover;
+
 	padding: 20px 0;
 	text-align: center
 
@@ -35,6 +40,11 @@ header h1 {
 .intro {
 	text-align: center;
 	border-bottom: 4px solid black;
+	padding: 20px 0 0 0;
+
+}
+.intro h2 {
+	margin: 0;
 }
 
 /**** FORM STYLES *****/
@@ -43,44 +53,51 @@ fieldset {
 	margin: 25px 0;
 }
 form fieldset:nth-child(1) {
-	border-bottom: 2px solid
+	border-bottom: 2px solid;
 }
 legend {
 	font-size: 1.3em;
 	font-weight: bold;
 }
-#zip {
-	width: 33%;
-}
+
 input[placeholder]{
 	text-align: right;
 	font-style: italic;
 }
 input,
-select,
-textarea{
-	background-color: #EFEFEF;
-	border-radius: 5px;
+select{
+	transition: all 2s;
+	background-color: inherit;
 	padding: 15px;
 	border: none;
+	border-bottom: 2px solid #444;
 	display: block;
+	width: 50%;
+	margin-left: 50%;
+	margin-bottom: 20px;
+}
+input:focus,
+select:focus{
+	transition: all 1s;
 	width: 100%;
+	margin: 0 0 20px 0;
+	box-shadow: none;
+	border-bottom: 2px solid #141E46;
 }
 input[type="radio"],
 input[type="checkbox"] {
 	display: initial;
 	width: auto;
 }
-input:focus,
-select:focus,
-textarea:focus{
-	border: 2px solid #B2C9FF;
-	box-shadow: none;
+textarea {
+	display: block;
+	width: 100%;
+	border: 2px solid #444;
 }
 form {
 	border-top: 2px solid black;
 	margin: 4px 0 0 0;
-	padding: 20px 0 0 0;
+	padding: 2% 0 0 0;
 }
 label {
 	cursor: pointer;
@@ -126,6 +143,8 @@ input[type="radio"]:checked + label::before {
 	margin-left: 5px;
 }
 
+/**** TRANSITION *****/
+
 /***** DRY classes *****/
 .btn {
 	margin: 10px 0 0 0;
@@ -143,7 +162,8 @@ input[type="radio"]:checked + label::before {
 .h-default-color {
 
 }
-.p {
+legend,
+label {
 	color: #141E46;
 }
 
@@ -160,7 +180,6 @@ input[type="radio"]:checked + label::before {
 	}
 	input,
 	select {
-		width: 80%;
 		display: inline-block;
 		margin-bottom: 20px;
 	}
