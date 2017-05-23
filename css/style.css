@@ -54,25 +54,26 @@ input[placeholder]{
 	text-align: right;
 	font-style: italic;
 }
-input:not([type="radio"]),
+input,
 select,
 textarea{
 	background-color: #EFEFEF;
 	border-radius: 5px;
 	padding: 15px;
 	border: none;
-	font-size: 1.1em;
 	display: block;
 	width: 100%;
+}
+input[type="radio"],
+input[type="checkbox"] {
+	display: initial;
+	width: auto;
 }
 input:focus,
 select:focus,
 textarea:focus{
 	border: 2px solid #B2C9FF;
 	box-shadow: none;
-}
-label {
-	display: block;
 }
 form {
 	border-top: 2px solid black;
