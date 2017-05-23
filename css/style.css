@@ -154,4 +154,15 @@ input[type="radio"]:checked + label::before {
 		width: 768px;
 		margin: 0 auto;
 	}
+	label:not([for="other_topics"]) {
+		width: 18%;
+		display: inline-block;
+	}
+	input,
+	select {
+		width: 80%;
+		display: inline-block;
+		margin-bottom: 20px;
+	}
+
 }
