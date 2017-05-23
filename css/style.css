@@ -92,11 +92,28 @@ input[type="checkbox"] + label::before {
 	content: url(../images/unchecked.svg);
 	width: 19px;
 	height: 19px;
+	display: inline-block;
 }
 input[type="checkbox"]:checked + label::before {
 	content: url(../images/checked.svg);
+}
+input[type="checkbox"] + label {
+	vertical-align: top;
+}
+
+input[type="radio"] {
+	display: none;
+}
+input[type="radio"] + label::before {
+	content: url(../images/unchecked-radio.svg);
 	width: 19px;
 	height: 19px;
+	display: inline-block;
+	margin-left: 5px;
+}
+input[type="radio"]:checked + label::before {
+	content: url(../images/checked-radio.svg);
+	margin-left: 5px;
 }
 
 /***** DRY classes *****/

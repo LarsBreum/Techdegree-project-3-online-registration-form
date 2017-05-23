@@ -16,7 +16,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="checked.svg">
+   sodipodi:docname="checked-radio.svg">
   <defs
      id="defs4">
     <linearGradient
@@ -36,8 +36,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="89.600001"
-     inkscape:cx="6.2257011"
-     inkscape:cy="4.8085506"
+     inkscape:cx="6.3596297"
+     inkscape:cy="4.8197113"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -65,13 +65,13 @@
      id="layer1"
      transform="translate(0,-1042.3622)">
     <rect
-       style="fill:#141e46;fill-opacity:0.67383554;stroke:#141e46;stroke-width:0.76980543;stroke-linecap:round;stroke-miterlimit:9.60000038;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#141e46;fill-opacity:1;stroke:#141e46;stroke-width:0.32925546;stroke-linecap:round;stroke-miterlimit:9.60000038;stroke-dasharray:none;stroke-opacity:1"
        id="rect4136"
-       width="9.2961473"
-       height="9.2783928"
-       x="0.36815768"
-       y="1042.7008"
-       ry="1.9078571" />
+       width="9.5652533"
+       height="9.6094627"
+       x="0.23918462"
+       y="1042.5521"
+       ry="4.8047314" />
     <rect
        style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:10;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4137"
@@ -80,23 +80,12 @@
        x="-2.9357557"
        y="1046.8221"
        ry="0.063134536" />
-    <rect
-       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:10;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect4139"
-       width="0.74211699"
-       height="3.783994"
-       x="-891.8252"
-       y="548.30249"
-       ry="0.37105849"
-       transform="matrix(0.5214642,-0.85327316,0.8504117,0.5261178,0,0)" />
-    <rect
-       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:10;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect4139-0"
-       width="0.74211848"
-       height="9.0074492"
-       x="-542.25543"
-       y="-901.0545"
-       ry="0.37105924"
-       transform="matrix(-0.85917904,-0.51167506,0.5120785,-0.85893865,0,0)" />
+    <ellipse
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.33500001;stroke-miterlimit:9.60000038;stroke-dasharray:none;stroke-opacity:1"
+       id="path4175"
+       cx="5.0292969"
+       cy="1047.281"
+       rx="1.7564174"
+       ry="1.6560109" />
   </g>
 </svg>

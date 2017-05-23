@@ -16,7 +16,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="checked.svg">
+   sodipodi:docname="checked.radio.svg">
   <defs
      id="defs4">
     <linearGradient
@@ -71,7 +71,7 @@
        height="9.2783928"
        x="0.36815768"
        y="1042.7008"
-       ry="1.9078571" />
+       ry="4.6391964" />
     <rect
        style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:10;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4137"
@@ -92,11 +92,11 @@
     <rect
        style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:10;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4139-0"
-       width="0.74211848"
-       height="9.0074492"
-       x="-542.25543"
-       y="-901.0545"
-       ry="0.37105924"
-       transform="matrix(-0.85917904,-0.51167506,0.5120785,-0.85893865,0,0)" />
+       width="0.71325308"
+       height="8.4953709"
+       x="-558.39606"
+       y="-910.82593"
+       ry="0.34996429"
+       transform="matrix(-0.86788138,-0.49677148,0.52711233,-0.84979562,0,0)" />
   </g>
 </svg>
