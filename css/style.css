@@ -40,8 +40,10 @@ header h1 {
 /**** FORM STYLES *****/
 fieldset {
 	border: none;
-	border-bottom: 2px solid black;
-	margin-top: 25px;
+	margin: 25px 0;
+}
+form fieldset:nth-child(1) {
+	border-bottom: 2px solid
 }
 legend {
 	font-size: 1.3em;
@@ -83,7 +85,15 @@ form {
 label {
 	cursor: pointer;
 }
-
+textarea {
+	min-height: 175px;
+}
+form > p {
+	text-align: center;
+	font-style: italic;
+	color: lightgrey;
+	font-size: 0.8em
+}
 /***** CHECKBOX AND RADIO STYLES *****/
 input[type="checkbox"] {
 	display: none;
@@ -118,11 +128,30 @@ input[type="radio"]:checked + label::before {
 
 /***** DRY classes *****/
 .btn {
+	margin: 10px 0 0 0;
+	width: 100%;
+	padding: 15px 5px;
+	border: none;
+	font-size: 1.05em;
+	background-color: #141E46;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: white;
+	border-radius: 5px;
 
 }
 .h-default-color {
 
 }
-.p-default-color {
+.p {
+	color: #141E46;
+}
 
+/**** MEDIA QUERY FOR LARGER SCREENS *****/
+
+@media (min-width: 768px) {
+	.container {
+		width: 768px;
+		margin: 0 auto;
+	}
 }
