@@ -80,6 +80,24 @@ form {
 	margin: 4px 0 0 0;
 	padding: 20px 0 0 0;
 }
+label {
+	cursor: pointer;
+}
+
+/***** CHECKBOX AND RADIO STYLES *****/
+input[type="checkbox"] {
+	display: none;
+}
+input[type="checkbox"] + label::before {
+	content: url(../images/unchecked.svg);
+	width: 19px;
+	height: 19px;
+}
+input[type="checkbox"]:checked + label::before {
+	content: url(../images/checked.svg);
+	width: 19px;
+	height: 19px;
+}
 
 /***** DRY classes *****/
 .btn {
