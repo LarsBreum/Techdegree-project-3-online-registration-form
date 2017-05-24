@@ -98,10 +98,11 @@ textarea {
 	display: block;
 	width: 100%;
 	border: 2px solid #444;
+	min-height: 175px;
 }
 textarea:focus {
-	transition: border 1s;
-	border-color: tomato;
+	transition: all 1s;
+	border: 2px solid tomato;
 }
 
 form {
@@ -111,9 +112,6 @@ form {
 }
 label {
 	cursor: pointer;
-}
-textarea {
-	min-height: 175px;
 }
 form > p {
 	text-align: center;
