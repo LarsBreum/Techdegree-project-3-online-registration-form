@@ -74,6 +74,7 @@ select{
 	width: 50%;
 	margin-left: 50%;
 	margin-bottom: 20px;
+	transition-duration: 2s;
 }
 input:focus,
 select:focus,
