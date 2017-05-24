@@ -88,7 +88,7 @@ select:focus{
 	width: 100%;
 	margin: 0 0 20px 0;
 	box-shadow: none;
-	border-bottom: 2px solid #141E46;
+	border-bottom: 2px solid tomato;
 }
 input[type="radio"],
 input[type="checkbox"] {
@@ -149,7 +149,6 @@ input[type="radio"]:checked + label::before {
 	margin-left: 5px;
 }
 
-/**** TRANSITION *****/
 
 /***** DRY classes *****/
 .btn {
@@ -188,6 +187,13 @@ label {
 	select {
 		display: inline-block;
 		margin-bottom: 20px;
+		margin-left: 30%;
+	}
+	input:focus,
+	select:focus {
+		display: inline-block;
+		margin-right: 0px;
+		width: 80%;
 	}
 
 }
