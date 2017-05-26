@@ -71,10 +71,9 @@ select{
 	border: none;
 	border-bottom: 2px solid #444;
 	display: block;
-	width: 50%;
-	margin-left: 50%;
+	width: 100%;
 	margin-bottom: 20px;
-	transition-duration: 2s;
+	transition-duration: 0.5s;
 }
 input:focus,
 select:focus,
@@ -84,7 +83,7 @@ textarea:focus {
 
 input:focus,
 select:focus{
-	transition: all 1s;
+	transition: all .5s;
 	width: 100%;
 	margin: 0 0 20px 0;
 	box-shadow: none;
@@ -97,7 +96,7 @@ input[type="checkbox"] {
 }
 textarea {
 	display: block;
-	width: 100%;
+	width: auto;
 	border: 2px solid #444;
 	min-height: 175px;
 }
@@ -191,6 +190,7 @@ label {
 		display: inline-block;
 		margin-bottom: 20px;
 		margin-left: 30%;
+		width: 50%;
 	}
 	input:focus,
 	select:focus {
