@@ -101,6 +101,8 @@ textarea {
 	border: 2px solid #444;
 	min-height: 175px;
 	width: 100%;
+	background-color: lightgrey;
+	border-radius: 5px;
 }
 textarea:focus {
 	transition: all 1s;
